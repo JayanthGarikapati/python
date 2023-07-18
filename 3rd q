@@ -1,0 +1,6 @@
+ab = int(input("Write the range: "))
+a = 1
+# Running the loop from 2 to input
+# entered by the user.
+for b in range(2, ab+1):
+    print(f"{a}/{b} :", a/b)
